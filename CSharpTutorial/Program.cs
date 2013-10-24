@@ -10,6 +10,7 @@ namespace CSharpTutorial
     {
         static void Main(string[] args)
         {
+            Console.Write(new AsynchronousDNS().GetHostAsync());
         }
     }
 }
